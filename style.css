@@ -233,11 +233,11 @@ STYLING FOR IMAGES IN CONTENT SECTION
 */
 
 /*General styling*/
-#rent {
+#content1 {
   height:100vh;
 }
 
-#rent img {
+#content1 img {
   position:absolute;
   left:0;
   height: 100vh;
@@ -275,7 +275,7 @@ opacity:0;
 }
 }
 
-#rent img.image1 {
+#content1 img.image1 {
   animation-name: FadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
