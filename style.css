@@ -237,6 +237,10 @@ STYLING FOR IMAGES IN CONTENT SECTION
   height:100vh;
 }
 
+#content2 {
+  height:20vh;
+}
+
 #content1 img {
   position:absolute;
   left:0;
@@ -281,4 +285,47 @@ opacity:0;
   animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-direction: alternate;
+}
+#content2 {
+  background: #00B4D8;
+  text-align: center;
+  width: 230px;
+  height: 30%;
+  position: fixed;
+  margin: 0px;
+  right: -230px; 
+  padding: 0px;
+  margin-bottom: 0px;
+  }
+  
+  #content2 {
+  display: block;
+  }
+  
+  #content2 {
+  display: block;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1px 20px;
+  border: 15px solid transparent;
+  text-decoration: none;
+  }
+  
+  #content2 {
+  border-color: transparent;
+  background: #0077B6;
+  color:#CAF0F8;
+  }
+  /*Menu in inline block (across top of screen)*/
+#content2 {
+    margin: 0;
+    padding: 15px 0;
+    width:100%;
+    display: inline-block;
+    position:relative;
+    right: 0;
+  }
+
+#content2 p {
+  margin: -50px;
 }
