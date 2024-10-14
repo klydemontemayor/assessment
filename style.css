@@ -329,3 +329,14 @@ opacity:0;
 #content2 p {
   margin: -50px;
 }
+.bottom {
+  grid-area: footer;
+  background-color: rgb(253, 218, 13);
+  text-align: center;
+  padding: 20px;
+}
+
+.bottom p {
+  margin: 0;
+  font-size: 1rem;
+}
