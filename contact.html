@@ -5,29 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Cairo:400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Toy Library</title>
+  <link rel="stylesheet" href="contact.css">
+  <title>Toy Library - Contact</title>
 </head>
 
 <body>
     <div class="container">
       <nav>
-        <img src="toylibrary_logo.png">
-          <ul id="menu"> 
-            <li class="toggle">
-              <div class="bar1"></div>
-              <div class="bar2"></div>
-              <div class="bar3"></div>
-            </li>
-              <li><a href="index.html">Home</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="subscription.html">Subscription</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="admin.html">Admin</a></li>     
-            <section id="contact">
-                
+        <img src="toylibrary_logo.png" alt="Toy Library Logo">
+        <ul id="menu"> 
+          <li class="toggle">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="library.html">Library</a></li>
+          <li><a href="subscription.html">Subscription</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin.html">Admin</a></li>     
+        </ul>
+      </nav>
 
-            </section>
-          
-            </ul>
-        </nav>
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or comments, please fill out the form below and we will get back to you as soon as possible!</p>
+        
+        <form action="submit_contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Our Location</h2>
+          <p>123 Toy Street, Toyland, TL 12345</p>
+          <h2>Phone</h2>
+          <p>(123) 456-7890</p>
+          <h2>Email</h2>
+          <p>info@toylibrary.com</p>
+        </div>
+      </section>
+    </div>
+</body>
+</html>
